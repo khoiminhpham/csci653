@@ -1,15 +1,15 @@
-# SimpleMD: Simple Molecular Dynamics
+# Title: applicaition name
 This is a readme file for a simple molecular dynamics (MD) program 
 for Lennard-Jones potential.
-## 0. Prerequisites
+## Problem description
 Only needed is C compiler.
-## 1. How to compile and run
+## Simulation method, algorithms
 If the C compiler on your computer is cc (also common is gcc for Gnu C 
 compiler), type:
 cc -O -o md md.c -lm
 This will create an executable named md. To run the executable, type:
 ./md < md.in
-## 2. Files
+## Expected Results
 The following files are included in this folder, in addition to this readme 
 file, readme.md.
 <ul>
