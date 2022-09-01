@@ -1,4 +1,4 @@
-# Title: applicaition name
+# Title: application name
 This is a readme file for a simple molecular dynamics (MD) program 
 for Lennard-Jones potential.
 ## Problem description
