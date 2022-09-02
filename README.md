@@ -7,7 +7,7 @@ Within just the past few years, the use of containers has revolutionized the way
 1. Select proper container images 
 2. Deploy containers on HPC, using Singularity to control, setting up sharing resources between host and containers 
 3. Try MPI/GPU applications in a container
-4. Optimization process: speed up containers, testing MPI applicaitons on runtime, improve container images reproducibilities.
+4. Optimization process: speed up containers, testing MPI applications in runtime, improve container images reproducibilities.
 
 ## Expected Results
 This project will demonstrate a method to utilize containers with HPC resources through Shifter/Singularity.
