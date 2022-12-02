@@ -25,7 +25,7 @@
 
 <p><br />
 However, adopting containerization on HPC is not an easy job, and still requires a lot of improvements and experimentations.&nbsp;<br />
-One of the experiment, or perhaps just a&nbsp;question I want to know the answer is, what is the trade off when using OS virtualization technique, compared to barebone performance. Because, unlike traditional virtualization, it's quite common for containers to be deployed in thousands per session. In that case, even the smallest trade off could be considerable in large amount.&nbsp;<br />
+One of the experiment&nbsp;I&#39;d&nbsp;want to try is, what is the trade off when using OS virtualization technique, compared to barebone performance. Because, unlike traditional virtualization, it&#39;s quite common for containers to&nbsp;be deployed in thousands per session. In that case, even the smallest trade off could be considerable.&nbsp;<br />
 By applying Amdahl&#39;s Law on HPC, and on container running on HPC, we can&nbsp;find the peak improvements in&nbsp;execution time, supposedly with the same amount of cores (assigned resources), then&nbsp;compare the actual execution time improvement in each environment, we probably can see&nbsp;what is the trade off percentage.&nbsp; &nbsp;&nbsp;<br />
 Last time, someone&nbsp;in Amazon (unofficially) told me, their EC2 supercomputer has&nbsp;a computational power trade off of 10%, and they were using KVM hardware virtualization. I expect the lower rate in OS virtualization, but to know the real number is quite intrigued.</p>
 
