@@ -1,27 +1,31 @@
-1. Goal: 
-Within just the past few years, the use of containers has revolutionized the way in which industries and enterprises have developed and deployed computational software and distributed systems. The containerization model has gained traction within the HPC community as well with the promise of improved reliability, reproducibility, portability and levels of customization that were previously not possible on supercomputers.
+<h3><strong>Goal:&nbsp;</strong></h3>
 
-Because Containerization is OS Virtualization, it's proved to be light weight and consume less energy/cumputational power compared to traditional Virtualization technique liek VMWare or Virtual-Box
+<p>Within just the past few years, the use of containers has revolutionized the way in which industries and enterprises have developed and deployed computational software and distributed systems. The containerization model has gained traction within the HPC community as well with the promise of improved reliability, reproducibility, portability and levels of customization that were previously not possible on supercomputers.</p>
 
+<p>Because Containerization is OS Virtualization, it&#39;s proved to be light weight and consume less energy/cumputational power compared to traditional Virtualization technique liek VMWare or Virtual-Box<br />
+<br />
+<img alt="" src="https://github.com/khoiminhpham/csci653/blob/master/Images/Comparison.JPG" /><img alt="comparison" src="https://github.com/khoiminhpham/csci653/blob/master/Images/Comparison.JPG?raw=true" style="border-style:solid; border-width:1px; float:left; height:300px; width:300px" /><img alt="" src="https://github.com/khoiminhpham/csci653/blob/master/Images/Comparison.JPG" style="float:left" /></p>
 
+<p>&nbsp;</p>
 
+<p>&nbsp;</p>
 
+<p>&nbsp;</p>
 
+<p>&nbsp;</p>
 
+<p>&nbsp;</p>
 
+<p>&nbsp;</p>
 
+<p>&nbsp;</p>
 
+<p>&nbsp;</p>
 
+<p><br />
+However, adopting containerization on HPC is not an easy job, and still requires a lot of improvements and experimentations.&nbsp;<br />
+One of the experiment, or perhaps just a&nbsp;question I want to know the answer is, what is the trade off when using OS virtualization technique, compared to barebone performance.&nbsp;<br />
+By applying Amdahl&#39;s Law on HPC, and on container running on HPC, we can&nbsp;find the peak improvements in&nbsp;execution time, supposedly with the same amount of cores (assigned resources), then&nbsp;compare the actual execution time improvement in each environment, we probably can see&nbsp;what is the trade off percentage.&nbsp; &nbsp;&nbsp;<br />
+Last time, someone&nbsp;in Amazon (unofficially) told me, their EC2 supercomputer has&nbsp;a computational power trade off of 10%, and they were using KVM hardware virtualization. I expected the lower rate in OS virtualization, but to know the real number is quite intrigued.</p>
 
-
-
-
-
-
-
-
-
-However, adopting containerization on HPC is not an easy job, and still requires a lot of improvements and experimentations. 
-One of the experiment, or perhaps just a question I want to know the answer is, what is the trade off when using OS virtualization technique, compared to barebone performance. 
-By applying Amdahl's Law on HPC, and on container running on HPC, we can find the peak improvements in execution time, supposedly with the same amount of cores (assigned resources), then compare the actual execution time improvement in each environment, we probably can see what is the trade off percentage.    
-Last time, someone in Amazon (unofficially) told me, their EC2 supercomputer has a computational power trade off of 10%, and they were using KVM hardware virtualization. I expected the lower rate in OS virtualization, but to know the real number is quite intrigued.
+<p>&nbsp;</p>
