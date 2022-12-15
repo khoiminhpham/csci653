@@ -5,6 +5,9 @@ Within just the past few years, the use of containers has revolutionized the way
 Details:
 https://htmlpreview.github.io/?https://github.com/khoiminhpham/csci653/blob/master/Documentation/index.html
 
+![image](https://user-images.githubusercontent.com/47465932/207985594-f7994017-3947-40a0-bf48-62279c0baa58.png)
+
+
 Source:
 https://sc20.supercomputing.org/presentation/?id=tut129&sess=sess271 (SC20)
 https://journalofcloudcomputing.springeropen.com/articles/10.1186/s13677-021-00231-z (Journal of Cloud Computing 2021)
