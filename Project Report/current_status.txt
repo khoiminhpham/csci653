@@ -1,1 +1,0 @@
-I'm stuck at installing openMP to the Singularity Ubuntu container, keeps saying permission denied, probably need more understanding of singularity to do this.

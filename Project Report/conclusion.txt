@@ -1,0 +1,8 @@
+I realized, in singularity there're 2 types of virtualization:
+(1) OS level virtualization: when start image, it's mounted to host user's directory, 
+(2) HW level virtualization: using qemu kvm, it creates a virtual machine like virtual box, and start the image inside that VM. 
+
+2nd scenario falls into the traditional virtualbox/hyper-V use-case
+1st scenario create a virtual OS layer to execute local host files, as displayed in the test cases, the execution time shows almost no reduction, or in the most significant case: 0.25%
+
+I also noticed a significant time volatile when involve multi threading, possibly because intel switching between idle/peak frequency. But because this is a fun project, I would rather not investigate deeper. 
